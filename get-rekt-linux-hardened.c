@@ -331,7 +331,7 @@ static void writemsg() {
 		return;
 	}
 	if (n != sizeof(buffer)) {
-		fprintf(stderr, "short write: %d\n", n);
+		fprintf(stderr, "short write: %ld\n", n);
 	}
 }
 
